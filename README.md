@@ -41,7 +41,7 @@ This page lets you book a consultation with the studio via JavaScript form and a
 
 ### Aftercare
 
-Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed.
+Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed. <br>
 Also a "first 2 weeks" with some general tips that are extra crucial during initial stages of healing.
 
 
