@@ -53,6 +53,7 @@ Link to webshop does not work since construction is underway, right side and "wh
 ---
 
 * Overarching design and Colourscheme
+  
   * Tried out a few designs/color schemes and because of what the client is, this felt most appropriate, left side is text, right is related art/images.
 As stated above, black and gray is sort of the "spiritual" theme of the actual studio, i was a bit worried about contrasts when incorporating gray and opacity, im still not sure but feedback has been positive about it thus far.
 Social media links and the "submit" button on the form are the only coloured "infrastructure" part of the side, images will have some colour in them as well.
