@@ -29,7 +29,7 @@ This is a business site for the tattoo studio Almen-Ink, on it you can browse th
 
 This page serves 2 purposes. 
 It is the main welcome page as well as an introduction to the owner and artists working here.
-It contains a short bio as well as links to other work from the artists.
+It contains a short bio, as well as links to other work from the artists.
 
 ### Gallery
 
@@ -44,7 +44,17 @@ This page lets you book a consultation with the studio via JavaScript form and a
 Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed. <br>
 Also contains a "first 2 weeks"-guide with some general tips that are extra crucial during initial stages of healing.
 
+### Missing content
 
-## User Experience
+Link to webshop does not work since construction is underway, right side and "white space" is reserved for JavaScript. 
+
+
+## User Experience and Design
 ---
+
+*Overarching design and Colourscheme
+  *Tried out a few designs/color schemes and because of what the client is, this felt most appropriate, left side is text, right is related art/images.
+As stated above, black and gray is sort of the "spiritual" theme of the actual studio, i was a bit worried about contrasts when incorporating gray and opacity, im still not sure but feedback has been positive about it thus far.
+Social media links and the "submit" button on the form are the only coloured "infrastructure" part of the side, images will have some colour in them as well.
+
 
