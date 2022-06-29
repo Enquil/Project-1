@@ -62,9 +62,8 @@ Right side images and some Javascript in the whitespace is missing, will be inco
 ---
 
 * Overarching design and Colourscheme
-  
   * Tried out a few designs/color schemes and because of what the subject/client is, this felt most appropriate, left side is text, right is related art/images, want to end it up having a "booky" feel to it.
-
+  * Social Media was colored to make it stand out a bit against the rest of the page, no idea if it actually will make people click it more but i figured it wont hurt.
 
 * Colours
   * Black/gray backgrounds with white text, had some worries about visibility when using opacity and a textured background, but feedback has been good thus far.
@@ -73,7 +72,14 @@ Right side images and some Javascript in the whitespace is missing, will be inco
   * Nav, page-welcome and footer is linear-gradient top -> right rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22).
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
 
-*
+* JavaScript related design
+  * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
 
-  *
+
+## Acessability
+---
+
+* Aria labels
+  * Will most likely be added to nav-menu, form, pdf anchor and webshop anchor, more implementation might be coming.
+
 
