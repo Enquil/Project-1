@@ -64,6 +64,7 @@ Right side images and some Javascript in the whitespace is missing, will be inco
 * Overarching design and Colourscheme
   * Tried out a few designs/color schemes and because of what the subject/client is, this felt most appropriate, left side is text, right is related art/images, want to end it up having a "booky" feel to it.
   * Social Media was colored to make it stand out a bit against the rest of the page, no idea if it actually will make people click it more but i figured it wont hurt.
+  * Links are offset in some way, i chose it to "highlight" them a bit.
 
 * Colours
   * Black/gray backgrounds with white text, had some worries about visibility when using opacity and a textured background, but feedback has been good thus far.
