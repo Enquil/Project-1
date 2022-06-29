@@ -85,18 +85,19 @@ Used FontAwesome for social media icons, it did the job.
   * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
 
 
-## Acessibility
+## Accessibility
 ---
 
 Tried using semantic markup throughout the page, think it went alright but some of the pages are probably still a bit ambiguous.
 
 * Aria labels
-  * Will most likely be added to nav-menu, form, pdf anchor and webshop anchor, more implementation might be coming.
+  * Have been added to all links, legends and most of the form, still figuring out how to solve the textarea label.
 
 
 ## Testing
 ---
-
+ * Used the lighthouse accessibility test on https://web.dev/, it scores low 90s for mobile and high 90s for the field test, lab enviroment scores 87 in accessibility and tells me i am using the wrong aria on the social media and home button, i cannot figure out why.
+ *  
 
 
 
