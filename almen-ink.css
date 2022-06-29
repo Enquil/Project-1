@@ -5,13 +5,13 @@ body, html {
 }
 
 button {
-    font-size: 30px;
     margin: 0px 0px 20px 29px;
     background: linear-gradient(to bottom right,rgb(202, 202, 222),rgb(162, 162, 192),rgb(132, 132, 162),rgb(102, 102, 132));
-    box-shadow: 0px 0px 3px whitesmoke;
-    border: none;
     font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
+}
+
+button, fieldset, legend {
+    border: none; 
 }
 
 button:hover {
@@ -19,7 +19,6 @@ button:hover {
 }
 
 fieldset {
-    border: none;
     border-top: 1px solid whitesmoke;
 }
 
@@ -28,11 +27,13 @@ footer {
     bottom: 0;
 }
 
+/*form css, positioning, content */
 form {
     width: 50%;
     max-width: 100%;
     box-shadow: 0px 5px 5px rgb(52, 52, 52);
     margin-left: 1.5%;
+    margin-top: 0.75%;
 }
 
 h1 {
@@ -44,27 +45,25 @@ input {
     margin: 5px 0px;
 }
 
-input[type=file] {
+h1, h2, input[type=file], label, legend, i, p, span, a, ul {
     color: whitesmoke;
 }
 
-label {
-    color: whitesmoke;
-    font-size: 20px;
-}
-
-legend {
-    background-color: rgba(22, 22, 22, 0);
-    color: whitesmoke;
-    border: none;
-    font-size: 25px;
-    position: relative;
-
+li {
+    margin: 20px 0px;
 }
 
 nav {
-    display: block;
     text-align: center;
+}
+
+ul, .pdf-main {
+    padding-left: 5%;
+}
+
+/* paragraph height */
+p {
+    line-height: 24pt;
 }
 
 textarea {
@@ -74,46 +73,33 @@ textarea {
 h1, h2 {
     padding-left: 5%;
     margin: 0;
-    color: whitesmoke;
     font-family: 'IM Fell English SC', serif;
-}
-
-h1 {
-    padding-top: 30px;
-}
-
-.page-welcome h2 {
-    padding-top: 60px;
-    font-size: 30px;
     padding-top: 50px;
 }
 
-i, p, span, a {
-    color: whitesmoke;
+h2, button {
+    font-size: 30px;
 }
 
 i:hover {
     text-shadow: 0px 0px 10px rgb(140, 150, 180);
 }
 
-form, nav, footer {
-    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(52, 52, 52), rgb(22, 22, 22));
-}
-
-nav, footer {
+/* size and indexing for nav, footer and page-info */
+nav, footer, .page-welcome {
     width: 100%;
     height: auto;
     box-shadow: 0px 0px 8px rgb(0, 0, 0);
     z-index: 1;
 }
 
-ul {
-    color: whitesmoke;
+li a, .page-welcome, .pdf-main, legend {
+    font-size: 25px;
 }
 
-#almen-ink-descriptor {
-    position: relative;
-    top: -10px;
+/* linear-gradient coloring*/
+.page-welcome, form, nav, footer, .gallery {
+    background: linear-gradient(to bottom, rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22, 1));
 }
 
 #contact {
@@ -142,10 +128,19 @@ ul {
     padding: 15px;
 }
 
-#send {
-    margin-left: 20px;
+/* icon colors */
+.fa-facebook-square {
+    color: rgb(66 103 178);
+}
+.fa-google-play {
+    color: rgb(1,135,95);
 }
 
+.fa-instagram-square {
+    color: rgb(131, 58, 180);
+}
+
+/* social media positioning and size */
 #social-media {
     text-align: center;
     min-width: 33%;
@@ -156,33 +151,21 @@ ul {
     padding-left: 1.5rem;
 }
 
-.fa-facebook-square {
-    color: rgb(66 103 178);
-}
-
-.fa-google-play {
-    color: rgb(1,135,95);
-}
-
-.fa-instagram-square {
-    color: rgb(131, 58, 180);
-}
-
+/* image gallery main-div */
 .gallery {
-    background: linear-gradient(to bottom, rgb(122, 122, 122), rgb(52, 52, 52), rgb(22, 22, 22));
     width: 80%;
     overflow-y: scroll;
     height: 400px;
-    margin-top: 30px;
+    margin: 0;
+    margin-top: 40px;
 }
 
-.image-description {
-    text-align: center;
+.gallery-img, .page-welcome a {
+    margin: 20px;
 }
 
-.image-description p {
-    margin-top: 0;
-    margin-bottom: 10px;
+.left-info {
+    width: 40%;
 }
 
 .nav-link {
@@ -199,24 +182,23 @@ ul {
     border-right: 2px ridge rgb(140, 150, 180);
 }
 
-.page-welcome, a {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
-}
-
+/* provides space for the text */
 .page-welcome {
-    text-shadow: 0px 3px 5px black;
-    background: linear-gradient(to bottom, rgba(122, 122, 122, 0.6), rgba(52, 52, 52), rgba(22, 22, 22, 1));
+    padding-left: 20px;
 }
 
 .inline-block {
     display: inline-block;
 }
 
-.tattoo-div {
-    display: inline-block;
-    margin: 5px 20px;
+/* spacer at bottom of page */
+.spacer {
+    height: 60px;
+}
+
+/* footer div to space content evenly */
+.third {
+    width: 33%;
 }
 
 #contact {
@@ -232,10 +214,6 @@ footer span {
     font-weight: 700;
 }
 
-.third {
-    width: 33%;
-}
-
 .block {
     display: block;
 }
@@ -249,6 +227,11 @@ footer span {
     padding-left: 5%;
 }
 
+.page-welcome p, .page-welcome span, li, label {
+    font-size: 20px;
+}
+
+/* mobile device and tablet css */
 @media only screen and (max-width: 600px) {
     form, .page-welcome {
       width: 100%;
@@ -290,10 +273,6 @@ footer span {
     }
 }
 
-.page-welcome p, .page-welcome span, li {
-    font-size: 20px;
-}
-
 @media screen and (max-width: 640px)
 {
     body, html{
@@ -314,10 +293,6 @@ footer span {
     }
 }
 
-li {
-    margin-bottom: 10px;
-}
-
 @media screen and (max-width: 600px) { 
     .mobile-spacer {
     height: 65px;
@@ -333,40 +308,17 @@ li {
     height: 40px;
 }}
 
-.pdf-main {
-    font-size: 30px;
-    padding-left: 5%;
-}
-
-ul {
-    padding-left: 5%;
-}
-
-p {
-    line-height: 24pt;
-}
-
-li a {
-    font-size: 25px;
-}
-
-.spacer {
-    height: 110px;
-}
-
 @media screen and (max-width: 900px) {
     .spacer {
         display: none;
     }
 }
 
-.left-info {
-    width: 40%;
-}
-
 @media screen and (max-width: 900px) { 
     .left-info {
     width: 85%;
 }}
+
+
 
 
