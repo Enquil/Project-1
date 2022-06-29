@@ -75,16 +75,27 @@ MAP will be added once the correct adress is displayed on google.
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
 
 * Icons
-Used Font Awesom for social media, it did the job.
+Used FontAwesome for social media icons, it did the job.
 
 * JavaScript related design
   * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
 
 
-## Acessability
+## Acessibility
 ---
 
 * Aria labels
   * Will most likely be added to nav-menu, form, pdf anchor and webshop anchor, more implementation might be coming.
+
+
+## Testing
+---
+
+
+
+## Deployment
+---
+
+
 
 
