@@ -74,6 +74,10 @@ MAP will be added once the correct adress is displayed on google.
   * Nav, page-welcome and footer is linear-gradient top -> right rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22).
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
 
+* Fonts
+  * Most headings except for the gallery names are IM Fell English SC from google fonts, chose link over import because im not sure about pros/cons yet.
+  * Everything else is Times New Roman
+
 * Icons
 Used FontAwesome for social media icons, it did the job.
 
@@ -90,6 +94,7 @@ Used FontAwesome for social media icons, it did the job.
 
 ## Testing
 ---
+
 
 
 
