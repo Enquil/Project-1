@@ -56,6 +56,7 @@ Fixed position, contains phone-nr and email to the left, social media in the mid
 
 Link to webshop does not work, since it doesent exist yet.
 Right side images and some Javascript in the whitespace is missing, will be incorporated simultaneously, credits will also be added then.
+MAP will be added once the correct adress is displayed on google.
 
 
 ## User Experience and Design
