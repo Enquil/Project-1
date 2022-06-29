@@ -74,6 +74,9 @@ MAP will be added once the correct adress is displayed on google.
   * Nav, page-welcome and footer is linear-gradient top -> right rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22).
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
 
+* Icons
+Used Font Awesom for social media, it did the job.
+
 * JavaScript related design
   * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
 
