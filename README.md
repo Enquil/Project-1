@@ -12,7 +12,7 @@ This is a business site for the tattoo studio Almen-Ink, on it you can browse th
 * [Testing]
 * [Deployment]
 * [Credits]
-* [Site Expansion Ideas]
+* [Site Expansion]
 
 
 ## Technologies used
@@ -102,6 +102,15 @@ Tried using semantic markup throughout the page, think it went alright but some 
 
 ## Deployment
 ---
+
+### Deploying your page on GitHub
+
+* In your github repository, click the "settings" button in the navbar above your files, it looks like a cogwheel.
+* In the left-hand menu, select "pages".
+* Under source, select which branch the webpage is being built from (main for me, and i think it's defautlt).
+* The page will automatically refresh and you should see a green field with a link you your new page.
+
+
 
 
 
