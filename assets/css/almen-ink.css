@@ -258,6 +258,7 @@ footer span {
     }
 }
 
+/* adjust social media */
 @media only screen and (max-width: 600px) {
     #social-media {
       width: 75%;
@@ -266,6 +267,7 @@ footer span {
     }
 }
 
+/* reveal homebutton */
 @media only screen and (max-width: 700px) {
     #home-butt {
       display: inline-block;
@@ -273,6 +275,7 @@ footer span {
     }
 }
 
+/* trimmming the screen overflow */
 @media screen and (max-width: 640px)
 {
     body, html{
@@ -287,17 +290,20 @@ footer span {
     }
 }
 
+/* removes gap for the form */
 @media screen and (max-width: 600px) {
     form{
         margin-left: 0;
     }
 }
 
+/* mobile-only spacer */
 @media screen and (max-width: 600px) { 
     .mobile-spacer {
     height: 65px;
 }}
 
+/* tablet and flipped screen spacer */
 @media screen and (max-width: 900px) { 
     .flip-spacer {
     height: 80px;
