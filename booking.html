@@ -18,10 +18,10 @@
 <body>
         <!-- internal nav, -->
     <nav class="block">
-        <a class="nav-link" href="index.html">About</a>
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-link" href="booking.html">Booking</a>
-        <a class="nav-link" href="aftercare.html">Aftercare</a>
+        <a class="nav-link" href="index.html" aria-label="about us">About</a>
+        <a class="nav-link" href="gallery.html" aria-label="tattoo galleries">Gallery</a>
+        <a class="nav-link" href="booking.html" aria-label="booking and contact">Booking</a>
+        <a class="nav-link" href="aftercare.html" aria-label="aftercare">Aftercare</a>
     </nav>
 
         <!-- page-welcome -->
@@ -58,15 +58,15 @@
 
                     <!--name-->
                     <label for="full_name" class="block">Name</label>
-                    <input id="full_name" name="full_name" type="text" class="block">
+                    <input id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
 
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
-                    <input id="e-mail" name="email" type="text" class="block">
+                    <input id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
 
                     <!--phone-->
                     <label for="phone" class="block">Phone</label>
-                    <input id="phone" name="phone" type="text" class="block">
+                    <input id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
 
                     <!--attachments-->
                     <label for="almen-ink-images"></label>
@@ -78,10 +78,11 @@
             <div class="inline-block">
                 <fieldset name="tattoo-description" id="description" class="inline-block">
                     <legend>Describe your Idea</legend>
+                    <label class="block" for="almen-ink-descriptor" aria-label="describe your idea">Describe your idea</label>
                     <textarea name="almen-ink-descriptor" id="almen-ink-descriptor" cols="40" rows="11"></textarea>
                 </fieldset>
             </div> <br>
-            <button type="submit">SEND</button>
+            <button type="submit" aria-label="Send">SEND</button>
             <div class="mobile-spacer"></div>
         </form>
     
@@ -98,14 +99,14 @@
 
         <!-- homebutton for mobile -->
         <div id="home-butt">
-            <a href=""><i class="fa-solid fa-house-chimney fa-3x"></i></a>
+            <a href=""><i class="fa-solid fa-house-chimney fa-3x" aria-label="home button"></i></a>
         </div>
 
             <!-- social media -->
             <div id="social-media" class="inline-block">
-                <a target="blank" href="#"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
-                <a target="blank" href="https://instagram.com/almen_ink?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram-square fa-3x"></i></a>
-                <a target="blank" href="#"><i class="fa-brands fa-google-play fa-3x"></i></a>
+                <a target="blank" href="#"><i class="fa-brands fa-facebook-square fa-3x" rel="noopener" aria-label="Find us on Facebook (opens in new window)"></i></a>
+                <a target="blank" href="https://instagram.com/almen_ink?igshid=YmMyMTA2M2Y=" rel="noopener" aria-label="Find us on Instagram (opens in new window)"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+                <a target="blank" href="#"><i class="fa-brands fa-google-play fa-3x" rel="noopener" aria-label="Rate us on Google (opens in new window)"></i></a>
             </div>
         
         <!-- copyright -->
