@@ -88,6 +88,8 @@ Used FontAwesome for social media icons, it did the job.
 ## Acessibility
 ---
 
+Tried using semantic markup throughout the page, think it went alright but some of the pages are probably still a bit ambiguous.
+
 * Aria labels
   * Will most likely be added to nav-menu, form, pdf anchor and webshop anchor, more implementation might be coming.
 
