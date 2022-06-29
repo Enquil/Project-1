@@ -98,7 +98,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 ---
  * Used the lighthouse accessibility test on https://web.dev/, it scores low 90s for mobile and high 90s for the field test, lab enviroment scores 87 in accessibility and tells me i am using the wrong aria on the social media and home button, i cannot figure out why.
  
- * <a href = "[https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmountaincharlie.github.io%2Fproject-one-rock-climbing%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)">Link to validator results</a>  
+ * <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Jigsaw Validator results</a>  
 
 
 
