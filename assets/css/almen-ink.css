@@ -1,6 +1,6 @@
 body, html {
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(bilder/background.jpg);
     background-color: rgba(52, 52, 52,1);
 }
 
@@ -101,8 +101,12 @@ li a, .page-welcome, .pdf-main, legend {
 }
 
 /* linear-gradient coloring*/
-.page-welcome, form, nav, footer, .gallery {
+.page-welcome, form, nav, .gallery {
     background: linear-gradient(to bottom, rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22, 1));
+}
+
+footer {
+    background: linear-gradient(to bottom, rgb(82, 82, 82), rgb(52, 52, 52), rgb(22, 22, 22));
 }
 
 #contact {
@@ -131,6 +135,17 @@ li a, .page-welcome, .pdf-main, legend {
     padding: 15px;
 }
 
+/* social media positioning and size */
+#social-media {
+    text-align: center;
+    min-width: 33%;
+    max-width: 100%;
+}
+
+#social-media a {
+    padding-left: 1.5rem;
+}
+
 /* icon colors */
 .fa-facebook-square {
     color: rgb(66 103 178);
@@ -141,17 +156,6 @@ li a, .page-welcome, .pdf-main, legend {
 
 .fa-instagram-square {
     color: rgb(131, 58, 180);
-}
-
-/* social media positioning and size */
-#social-media {
-    text-align: center;
-    min-width: 33%;
-    max-width: 100%;
-}
-
-#social-media a {
-    padding-left: 1.5rem;
 }
 
 /* image gallery main-div */
@@ -194,6 +198,10 @@ li a, .page-welcome, .pdf-main, legend {
     display: inline-block;
 }
 
+.small-spacer {
+    height: 30px;
+}
+
 /* spacer at bottom of page */
 .spacer {
     height: 60px;
@@ -232,6 +240,10 @@ footer span {
 
 .page-welcome p, .page-welcome span, li, label {
     font-size: 20px;
+}
+
+label[for="almen-ink-descriptor"] {
+    display: none;
 }
 
 /* mobile device and tablet css */
