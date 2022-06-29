@@ -1,0 +1,322 @@
+body, html {
+    margin: 0;
+    background-image: url(bilder/background.jpg);
+    background-color: rgba(52, 52, 52,1);
+}
+
+button {
+    margin: 0px 0px 20px 29px;
+    background: linear-gradient(to bottom right,rgb(202, 202, 222),rgb(162, 162, 192),rgb(132, 132, 162),rgb(102, 102, 132));
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button, fieldset, legend {
+    border: none; 
+}
+
+button:hover {
+    box-shadow: 0px 0px 6px whitesmoke;
+}
+
+fieldset {
+    border-top: 1px solid whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/*form css, positioning, content */
+form {
+    width: 50%;
+    max-width: 100%;
+    box-shadow: 0px 5px 5px rgb(52, 52, 52);
+    margin-left: 1.5%;
+    margin-top: 0.75%;
+}
+
+h1 {
+    color: linear-gradient(to bottom right, blue, red);
+    font-size: 50px;
+}
+
+input {
+    margin: 5px 0px;
+}
+
+h1, h2, input[type=file], label, legend, i, p, span, a, ul {
+    color: whitesmoke;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+nav {
+    text-align: center;
+}
+
+ul, .pdf-main {
+    padding-left: 5%;
+}
+
+/* paragraph height */
+p {
+    line-height: 24pt;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+h1, h2 {
+    padding-left: 5%;
+    margin: 0;
+    font-family: 'IM Fell English SC', serif;
+    padding-top: 50px;
+}
+
+h2, button {
+    font-size: 30px;
+}
+
+i:hover {
+    text-shadow: 0px 0px 10px rgb(140, 150, 180);
+}
+
+/* size and indexing for nav, footer and page-info */
+nav, footer, .page-welcome {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+li a, .page-welcome, .pdf-main, legend {
+    font-size: 25px;
+}
+
+/* linear-gradient coloring*/
+.page-welcome, form, nav, footer, .gallery {
+    background: linear-gradient(to bottom, rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22, 1));
+}
+
+#contact {
+    position: relative;
+    left: 2%;
+}
+
+#copyright {
+    text-align: right;
+}
+
+#copyright p {
+    margin-right: 20px;
+}
+
+#description {
+    position: relative;
+    top: -1px;
+}
+
+#home-butt {
+    display: none;
+}
+
+#input {
+    padding: 15px;
+}
+
+/* icon colors */
+.fa-facebook-square {
+    color: rgb(66 103 178);
+}
+.fa-google-play {
+    color: rgb(1,135,95);
+}
+
+.fa-instagram-square {
+    color: rgb(131, 58, 180);
+}
+
+/* social media positioning and size */
+#social-media {
+    text-align: center;
+    min-width: 33%;
+    max-width: 100%;
+}
+
+#social-media a {
+    padding-left: 1.5rem;
+}
+
+/* image gallery main-div */
+.gallery {
+    width: 80%;
+    overflow-y: scroll;
+    height: 400px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.gallery-img, .page-welcome a {
+    margin: 20px;
+}
+
+.left-info {
+    width: 40%;
+}
+
+.nav-link {
+    font-size: 2.5rem;
+    padding: 0rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.nav-link:hover {
+    color: rgb(140, 150, 180);
+    border-left: 2px ridge rgb(140, 150, 180);
+    border-right: 2px ridge rgb(140, 150, 180);
+}
+
+/* provides space for the text */
+.page-welcome {
+    padding-left: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* spacer at bottom of page */
+.spacer {
+    height: 60px;
+}
+
+/* footer div to space content evenly */
+.third {
+    width: 33%;
+}
+
+#contact {
+    position: relative;
+    left: 2%;
+}
+
+footer p  {
+    font-size: 1.1rem;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.block {
+    display: block;
+}
+
+.gallery legend {
+    padding: 10px 0px 0px 30px;
+    font-size: 2rem;
+}
+
+.page-welcome p {
+    padding-left: 5%;
+}
+
+.page-welcome p, .page-welcome span, li, label {
+    font-size: 20px;
+}
+
+/* mobile device and tablet css */
+@media only screen and (max-width: 600px) {
+    form, .page-welcome {
+      width: 100%;
+      max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navlink a {
+      font-size: 2rem;
+      padding: 20%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #copyright {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #social-media {
+      width: 75%;
+      padding: 10px 0px;
+      position: relative;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #home-butt {
+      display: inline-block;
+      width: 20%;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}
+
+@media not screen and (max-width: 600px) {
+    .mobile-break {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    form{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) { 
+    .mobile-spacer {
+    height: 65px;
+}}
+
+@media screen and (max-width: 900px) { 
+    .flip-spacer {
+    height: 80px;
+}}
+
+@media screen and (max-width: 900px) { 
+    .small-flip-spacer {
+    height: 40px;
+}}
+
+@media screen and (max-width: 900px) {
+    .spacer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .left-info {
+    width: 85%;
+}}
+
+
