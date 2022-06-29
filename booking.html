@@ -7,28 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="almen-ink.css">
     <script src="https://kit.fontawesome.com/71b6742d99.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="fredd2.css">
+    <link rel="stylesheet" href="assets/css/almen-ink.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-        <!-- grayscale, 
-            left to right, 
-            blots of color 
-        -->
 </head>
 <body>
-        <!-- internal nav,
-        -->
-    <nav>
+        <!-- internal nav, -->
+    <nav class="block">
         <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="gallery.html">Gallery</a>
         <a class="nav-link" href="booking.html">Booking</a>
         <a class="nav-link" href="aftercare.html">Aftercare</a>
     </nav>
-        <!--page-welcome,
-            relevant info
-        -->
+
+        <!-- page-welcome -->
         <div class="page-welcome">
+
+            <!-- div for keeping text contained -->
             <div class="left-info">
             <h1>
                 Scheduling a call
@@ -47,48 +43,46 @@
                 *I will not plagiarize anything or  anyone, including myself.
             </p>
             </div>
+            <div class="spacer"></div>
             <div class="mobile-spacer"></div>
         </div>
-        <!--booking-form,
-        name*,
-        email*,
-        phone,
-        img-uploader,
-        text-area
-        -->
+        
+        <!-- booking-form -->
         <form name="almen-ink-booking" action="/action_page.php" method="get">
             <div id="input" class="inline-block">
                 <fieldset name="almen-ink-personalia" class="inline-block">
                     <legend>Contact Info and Art</legend>
+
                     <!--name-->
                     <label for="name" class="block">Name</label>
                     <input id="full_name" name="full_name" type="text" class="block">
+
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
                     <input id="e-mail" name="email" type="text" class="block">
+
                     <!--phone-->
                     <label for="phone" class="block">Phone</label>
                     <input id="phone" name="phone" type="text" class="block">
+
                     <!--attachments-->
                     <label for="almen-ink-images"></label>
                     <input type="file" id="almen-ink-images" name="filename">
                 </fieldset>
             </div>
+
+            <!-- text area -->
             <div class="inline-block">
                 <fieldset name="tattoo-description" id="description" class="inline-block">
                     <legend>Describe your Idea</legend>
                     <textarea name="almen-ink-descriptor" id="almen-ink-descriptor" cols="40" rows="11"></textarea>
                 </fieldset>
             </div> <br>
-            <button type="submit">Send</button>
+            <button type="submit">SEND</button>
             <div class="mobile-spacer"></div>
-        </form>    
-    <!--footer
-        contact info,
-        social media,
-        copyright,
-        mobile "spacer"
-    -->
+        </form>
+    
+    <!-- spacers -->
     <div class="mobile-spacer">
     </div>
     <footer>
@@ -98,17 +92,20 @@
                 <span>Mail</span>: Almen-Ink@gmail.com
             </p>
         </div>
-        <!--
-            homebutton for mobile
-        -->
+
+        <!-- homebutton for mobile -->
         <div id="home-butt">
             <a href=""><i class="fa-solid fa-house-chimney fa-3x"></i></a>
         </div>
+
+            <!-- social media -->
             <div id="social-media" class="inline-block">
                 <a target="blank" href="#"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
                 <a target="blank" href="https://instagram.com/almen_ink?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram-square fa-3x"></i></a>
                 <a target="blank" href="#"><i class="fa-brands fa-google-play fa-3x"></i></a>
             </div>
+        
+        <!-- copyright -->
         <div id="copyright" class="inline-block third">
             <p>
                 © Almen Ink 2022
