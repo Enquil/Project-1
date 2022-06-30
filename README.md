@@ -32,6 +32,8 @@ This page serves 2 purposes.
 It is the main welcome page as well as an introduction to the owner and artists working here.
 It contains a short bio, as well as links to other work from the artists.
 
+![Screenshot of the Welcome Page](./assets/media/About-Welcome.png "Welcome page")
+
 ### Gallery
 
 Contains image galleries with tattoo art done at the studio, description is supposed to be changed from 'Hello world!', to instead contain name of artist and customer and possible date.
