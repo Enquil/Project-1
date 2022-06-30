@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
-    background-image: url(background.jpg);
+    background-image: url(bilder/background.jpg);
+    background-color: rgba(52, 52, 52,1);
 }
 
 button {
@@ -100,11 +101,11 @@ li a, .page-welcome, .pdf-main, legend {
 }
 
 /* linear-gradient coloring*/
-.page-welcome, nav, .gallery {
+.page-welcome, form, nav, .gallery {
     background: linear-gradient(to bottom, rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22, 1));
 }
 
-footer, form {
+footer {
     background: linear-gradient(to bottom, rgb(82, 82, 82), rgb(52, 52, 52), rgb(22, 22, 22));
 }
 
@@ -275,9 +276,10 @@ label[for="almen-ink-descriptor"] {
 /* adjust social media */
 @media only screen and (max-width: 600px) {
     #social-media {
-      width: 75%;
+      width: 90%;
       padding: 10px 0px;
       position: relative;
+      text-align: center;
     }
 }
 
@@ -285,7 +287,6 @@ label[for="almen-ink-descriptor"] {
 @media only screen and (max-width: 700px) {
     #home-butt {
       display: inline-block;
-      width: 20%;
     }
 }
 
