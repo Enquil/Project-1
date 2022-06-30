@@ -5,14 +5,15 @@ This is a business site for the tattoo studio Almen-Ink, on it you can browse th
 ## Content
 ---
 
-* [Technologies used](https://github.com/Enquil/CodeInstitute-Project-1##technologies-used)
-* [Pages and Features]
-* [User Experience]
-* [Accessability]
-* [Testing]
-* [Deployment]
-* [Credits]
-* [Site Expansion]
+* [Technologies used](https://github.com/Enquil/CodeInstitute-Project-1#technologies-used)
+* [Pages and Features](https://github.com/Enquil/CodeInstitute-Project-1#pages-and-features)
+* [User Experience](https://github.com/Enquil/CodeInstitute-Project-1#user-experience)
+* [Accessibility](https://github.com/Enquil/CodeInstitute-Project-1#accessibility)
+* [Testing](https://github.com/Enquil/CodeInstitute-Project-1#testing)
+* [Deployment](https://github.com/Enquil/CodeInstitute-Project-1#deployment)
+* [Credits](https://github.com/Enquil/CodeInstitute-Project-1#credits)
+* [Site Expansion](https://github.com/Enquil/CodeInstitute-Project-1#site-expansion)
+* [Known Issues](https://github.com/Enquil/CodeInstitute-Project-1#known-issues)
 
 
 ## Technologies used
