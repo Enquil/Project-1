@@ -44,7 +44,7 @@ This page lets you book a consultation with the studio via JavaScript form and a
 Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed. <br>
 Also contains a "first 2 weeks"-guide with some general tips that are extra crucial during initial stages of healing.
 
-### Navigation bar
+### Navigation Bar
 
 Same on every page, trimmed it down to 4 buttons in the end, About, Gallery, Booking and Aftercare.
 
@@ -52,7 +52,7 @@ Same on every page, trimmed it down to 4 buttons in the end, About, Gallery, Boo
 
 Fixed position, contains phone-nr and email to the left, social media in the middle and a copyright on the right.
 
-### Missing content
+### Missing Content
 
 Link to webshop does not work, since it doesent exist yet.
 Right side images and some Javascript in the whitespace is missing, will be incorporated simultaneously, credits will also be added then.
@@ -96,7 +96,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 
 ## Testing
 ---
- * Used the lighthouse accessibility test on https://web.dev/, it scores low 90s for mobile and high 90s for the field test, lab enviroment scores 87 in accessibility and tells me i am using the wrong aria on the social media and home button, i cannot figure out why.
+ * Used the lighthouse accessibility test on https://web.dev/, it scores low 90s for mobile and high 90s for the field test, lab enviroment scores 87 in accessibility and tells me i am using the wrong aria on the social media and home buttons, i am unsure why.
  
  * <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Jigsaw Validator results</a>
  * <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F">W3C validator results</a> (same errors as lighthouse, cant figure it out).
@@ -106,7 +106,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 ## Deployment
 ---
 
-### Deploying your page on GitHub
+### Deploying your Page on GitHub
 
 * In your github repository, click the "settings" button in the navbar above your files, it looks like a cogwheel.
 * In the left-hand menu, select "pages".
@@ -114,6 +114,21 @@ Tried using semantic markup throughout the page, think it went alright but some 
 * The page will automatically refresh and you should see a green field with a link you your new page.
 
 
+## Site Expansion Ideas and Future Improvements
+
+* Javascript gallery will be implemented with the rest of the images and a search/sort function.
+* Not a site expansion per say, but webshop will be added.
+* Form is getting connected to a mail in order to recieve consultation bookings smoothly.
+* Some JavaScript animation will be implemented.
+* Images on the right side "margin".
+* Some system to handle data from competitions etc. that the studio holds, in the end, some form of API like system might be needed/warranted.
+
+
+## Known Issues
+
+* "Wrong" Aria-label on social media/homebutton icons, will be fixed as soon as i know why theyre actually considered wrong, letting them stay now because i will get an error either way.
+* I noticed a small gap on the right side of the nav on some screen sizes, not sure what the problem actually is, i tried removing the margin and change position but it didnt actually do anything useful so will investigate further.
+* Overall score could be better on the lighthouse test, images are not rendered properly so that will be fixed.
 
 
 
