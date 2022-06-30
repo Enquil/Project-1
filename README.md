@@ -66,6 +66,8 @@ Same on every page, trimmed it down to 4 buttons in the end, About, Gallery, Boo
 
 Fixed position, contains phone-nr and email to the left, social media in the middle and a copyright on the right.
 
+![Screenshot of the Booking Page](./assets/media/Footer.png "Navigation")
+
 ### Missing Content
 
 * Link to webshop does not work, since it doesent exist yet.
