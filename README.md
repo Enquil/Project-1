@@ -81,9 +81,12 @@ Fixed position, contains phone-nr and email to the left, social media in the mid
   * Most headings except for the gallery names are IM Fell English SC from google fonts, chose link over import because im not sure about pros/cons yet.
   * Everything else is Times New Roman
 
-* Icons
-Used FontAwesome for social media icons, it did the job.
+* Icons are using FontAwesome for social media and homebutton icons, it did the job.
+
+  * Facebook https://fontawesome.com/icons/facebook-square?s=brands
   * Instagram: https://fontawesome.com/icons/instagram-square?s=brands
+  * Google: https://fontawesome.com/icons/google-play?s=brands
+  * Homebutton: https://fontawesome.com/icons/house-chimney?s=solid
 
 * JavaScript related design
   * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
