@@ -36,7 +36,7 @@ It contains a short bio, as well as links to other work from the artists.
 
 ### Gallery
 
-Contains image galleries with tattoo art done at the studio, description is supposed to be changed from 'Hello world!', to instead contain name of artist and customer and possible date.
+Contains image galleries with tattoo art done at the studio, there will be image descriptions implemented with the JS gallery, but it looked so lackluster to do it straight HTML/CSS.
 
 ![Screenshot of the Gallery Page](./assets/media/Gallery.png "Gallery 1")
 ![Screenshot of the gallery Page](./assets/media/Gallery-2.png "Gallery 2")
