@@ -54,20 +54,22 @@ Fixed position, contains phone-nr and email to the left, social media in the mid
 
 ### Missing Content
 
-Link to webshop does not work, since it doesent exist yet.
-Right side images and some Javascript in the whitespace is missing, will be incorporated simultaneously, credits will also be added then.
-MAP will be added once the correct adress is displayed on google.
+* Link to webshop does not work, since it doesent exist yet.
+* Right side images and some Javascript in the whitespace is missing, will be incorporated simultaneously, credits will also be added then.
+* MAP will be added once the correct adress is updated on google.
 
 
 ## User Experience and Design
 ---
 
 * Overarching design and Colourscheme
+
   * Tried out a few designs/color schemes and because of what the subject/client is, this felt most appropriate, left side is text, right is related art/images, want to end it up having a "booky" feel to it.
   * Social Media was colored to make it stand out a bit against the rest of the page, no idea if it actually will make people click it more but i figured it wont hurt.
   * Links are offset in some way, i chose it to "highlight" them a bit.
 
 * Colours
+
   * Black/gray backgrounds with white text, had some worries about visibility when using opacity and a textured background, but feedback has been good thus far.
   * Background is custom texture to mimic rock, didnt come out as planned, will switch to something brick-like maybe and a bit darker for contrast.
   * Text is whitesmoke, rgb(245, 245, 245).
@@ -75,11 +77,13 @@ MAP will be added once the correct adress is displayed on google.
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
 
 * Fonts
+
   * Most headings except for the gallery names are IM Fell English SC from google fonts, chose link over import because im not sure about pros/cons yet.
   * Everything else is Times New Roman
 
 * Icons
 Used FontAwesome for social media icons, it did the job.
+  * Instagram: https://fontawesome.com/icons/instagram-square?s=brands
 
 * JavaScript related design
   * None implemented yet, most JS will be infrastructure only but some animation will probably be implemented at a later date.
@@ -100,7 +104,6 @@ Tried using semantic markup throughout the page, think it went alright but some 
  
  * <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Jigsaw Validator results</a>
  * <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F">W3C validator results</a> (same errors as lighthouse, cant figure it out).
-
 
 
 ## Deployment
