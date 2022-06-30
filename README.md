@@ -5,7 +5,7 @@ This is a business site for the tattoo studio Almen-Ink, on it you can browse th
 ## Content
 ---
 
-* [Technologies used](https://github.com/Enquil/CodeInstitute-Project-1#technologies-used)
+* [Technologies used](https://github.com/Enquil/CodeInstitute-Project-1##technologies-used)
 * [Pages and Features]
 * [User Experience]
 * [Accessability]
