@@ -32,20 +32,26 @@ This page serves 2 purposes.
 It is the main welcome page as well as an introduction to the owner and artists working here.
 It contains a short bio, as well as links to other work from the artists.
 
-![Screenshot of the Welcome Page](./assets/media/About-Welcome.png "Welcome pag")
+![Screenshot of the Welcome Page](./assets/media/About-Welcome.png "Welcome page")
 
 ### Gallery
 
 Contains image galleries with tattoo art done at the studio, description is supposed to be changed from 'Hello world!', to instead contain name of artist and customer and possible date.
+![Screenshot of the Gallery Page](./assets/media/Gallery.png "Gallery 1")
+![Screenshot of the gallery Page](./assets/media/Gallery-2.png "Gallery 2")
+![Screenshot of the Gallery Page](./assets/media/Gallery-3.png "Gallery 3")
 
 ### Booking
 
 This page lets you book a consultation with the studio via JavaScript form and attach images or other files that might be relevant, it also contains info about booking and fees but the client has not decided on one yet.
+![Screenshot of the Booking Page](./assets/media/Booking.png "Booking")
 
 ### Aftercare
 
 Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed. <br>
 Also contains a "first 2 weeks"-guide with some general tips that are extra crucial during initial stages of healing.
+![Screenshot of the Booking Page](./assets/media/Aftercare.png "Aftercare 1")
+![Screenshot of the Booking Page](./assets/media/Aftercare-2.png "Aftercare 2")
 
 ### Navigation Bar
 
