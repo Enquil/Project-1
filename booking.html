@@ -58,7 +58,7 @@
 
                     <!--name-->
                     <label for="full_name" class="block">Name</label>
-                    <input id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
+                    <input onclick="modal()" id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
 
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
@@ -81,7 +81,8 @@
                     <textarea name="almen-ink-descriptor" id="almen-ink-descriptor" cols="40" rows="11"></textarea>
                 </fieldset>
             </div> <br>
-            <button type="submit" aria-label="Send" onclick="modal_contact">SEND</button>
+            <!-- submit button -->
+            <button type="submit" aria-label="Send" onclick="modal()">SEND</button>
             <div class="mobile-spacer"></div>
         </form>
     
