@@ -1,5 +1,6 @@
 
 function modal() {
+    document.getElementById("body");
     body.innerHTML += `
     <div id="modal-window"><div id="modal-box">
     <p id="modal-contact">
