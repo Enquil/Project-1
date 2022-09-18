@@ -1,8 +1,8 @@
 
 function modal() {
-    body = document.getElementsByTagName("body");
-    body.innerHTML += `
-    <div id="modal-window"><div id="modal-box">
+    let modalWindow = document.getElementById("modal-window");
+    modalWindow.innerHTML += `
+    <div id="modal-box">
     <p id="modal-contact">
     Sorry, this does not exist yet.
     If you want to book a session or buy other art, please use the info down below to contact me. <br>
@@ -10,11 +10,11 @@ function modal() {
     Phone: 070-123 45 67
     </p>
     <span onclick="close" id="close-modal">X</span>
-    </div></div>
+    </div>
     `;
 }
 
 function closeModal() {
-    document.getElementById("modal-window");
-    modal.remove();
+    let modalWindow = document.getElementById("modal-window");
+    Window.remove();
 }
