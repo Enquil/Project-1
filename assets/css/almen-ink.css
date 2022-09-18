@@ -216,7 +216,7 @@ footer {
     left: 2%;
 }
 
-/* Modal for broken webshop and booking form links */
+/*modal overlay, should cover entire screen*/
 #modal {
     background-color: rgba(0, 0, 0, 0.3);
     display: none;
@@ -226,6 +226,18 @@ footer {
     width: 100%;
 }
 
+/*modal box with contact info*/
+#modal-box {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
+
+/*the "X" to close modal*/
+.close-modal {
+    color: whitesmoke;
+    font-size: 2rem;
+}
 
 footer p  {
     font-size: 1.1rem;
