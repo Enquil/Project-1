@@ -216,6 +216,17 @@ footer {
     left: 2%;
 }
 
+/* Modal for broken webshop and booking form links */
+#modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    position: fixed;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+}
+
+
 footer p  {
     font-size: 1.1rem;
 }
