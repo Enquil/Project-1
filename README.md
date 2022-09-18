@@ -151,6 +151,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 * "Wrong" Aria-label on social media/homebutton icons, will be fixed as soon as i know why theyre actually considered wrong, letting them stay now because i will get an error either way.
 * I noticed a small gap on the right side of the nav on some screen sizes, not sure what the problem actually is, i tried removing the margin and change position but it didnt actually do anything useful so will investigate further.
 * Overall score could be better on the lighthouse test, images are not rendered properly so that will be fixed.
+* Link to webshop and booking form is broken, will solve this with a modal that displays contact information instead that the customer can use.
 
 
 

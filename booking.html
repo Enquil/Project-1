@@ -62,15 +62,15 @@
 
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
-                    <input id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
+                    <input onclick="modal()" id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
 
                     <!--phone-->
                     <label for="phone" class="block">Phone</label>
-                    <input id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
+                    <input onclick="modal()" id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
 
                     <!--attachments-->
                     <label for="almen-ink-images"></label>
-                    <input type="file" id="almen-ink-images" name="filename">
+                    <input onclick="modal()" type="file" id="almen-ink-images" name="filename">
                 </fieldset>
             </div>
 
@@ -112,5 +112,6 @@
             </p>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
