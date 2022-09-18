@@ -1,6 +1,6 @@
 
 function modal() {
-    document.getElementsByTagName("body");
+    body = document.getElementsByTagName("body");
     body.innerHTML += `
     <div id="modal-window"><div id="modal-box">
     <p id="modal-contact">
