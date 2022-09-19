@@ -1,4 +1,5 @@
 let modal = document.getElementById("modal-window");
+
 /**
  * Opens modal with contact info, when pressing link to webshop 
  * Or when trying to manipulate the bookingform
@@ -20,3 +21,9 @@ function openModal() {
 function closeModal() {
     modal.style.display = "none";
 }
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
