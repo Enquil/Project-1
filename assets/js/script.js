@@ -1,7 +1,7 @@
 let modal = document.getElementById("modal-window");
 
 /**
- * Opens modal with contact info, when pressing link to webshop 
+ * Opens modal with contact info when pressing link to webshop 
  * Or when trying to manipulate the bookingform
  */
 function openModal() {
@@ -17,12 +17,19 @@ function openModal() {
                         </div>`;
 }
 
+/**
+ * Closes modal on pressin the span X
+ */
 function closeModal() {
     modal.style.display = "none";
 }
 
-window.onclick = function(event) {
+//All credit to https://www.w3schools.com/howto/howto_css_modals.asp for this function. 
+/**
+ * Function that closes the modal when clicking anywhere outside of the div #modal-box.
+ */
+window.onclick = function(event) { 
     if (event.target == modal) {
       modal.style.display = "none";
     }
-  }
+};
