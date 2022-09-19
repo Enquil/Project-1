@@ -7,7 +7,7 @@ function openModal() {
     let modal = document.getElementById("modal-window");
     modal.style.display = "block";
     modal.innerHTML += `<div id="modal-box">
-                            <span class="close-modal" onclick="closeModal">X</span>
+                            <span style="color: black" class="close-modal" onclick="closeModal">X</span>
                         </div>`;
 }
 

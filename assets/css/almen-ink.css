@@ -264,11 +264,8 @@ label[for="almen-ink-descriptor"] {
 }
 
 /* X that closes modal window*/
-#close-modal {
-    position: relative;
-    background-color: whitesmoke;
+.close-modal {
     color: black;
-    right: 99%;
 }
 
 /* mobile device and tablet css */
