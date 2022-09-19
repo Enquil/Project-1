@@ -1,20 +1,12 @@
 
-function modal() {
-    let modalWindow = document.getElementById("modal-window");
-    modalWindow.innerHTML += `
-    <div id="modal-box">
-    <p id="modal-contact">
-    Sorry, this does not exist yet.
-    If you want to book a session or buy other art, please use the info down below to contact me. <br>
-    Email: Almen-Ink@gmail.com <br>
-    Phone: 070-123 45 67
-    </p>
-    <span onclick="close" id="close-modal">X</span>
-    </div>
-    `;
-}
-
-function closeModal() {
-    let modalWindow = document.getElementById("modal-window");
-    Window.remove();
+/**
+ * Opens modal with contact info, when pressing link to webshop 
+ * Or trying to manipulate the bookingform
+ */
+function openModal() {
+    let modal = document.getElementById("modal-window");
+    modal.style.display = "block";
+    modal.innerHTML += `<div id="modal-box">
+                            <span id="close-modal" style="property:value;">X</span>
+                        </div>`;
 }
