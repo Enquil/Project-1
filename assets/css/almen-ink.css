@@ -189,11 +189,6 @@ footer {
     border-right: 2px ridge rgb(140, 150, 180);
 }
 
-/* provides space for the text */
-.page-welcome {
-    padding-left: 20px;
-}
-
 .inline-block {
     display: inline-block;
 }
