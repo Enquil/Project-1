@@ -61,19 +61,19 @@
 
                     <!--name-->
                     <label for="full_name" class="block">Name</label>
-                    <input onclick="openModal()" id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
+                    <input id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
 
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
-                    <input onclick="openModal()" id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
+                    <input id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
 
                     <!--phone-->
                     <label for="phone" class="block">Phone</label>
-                    <input onclick="openModal()" id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
+                    <input id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
 
                     <!--attachments-->
                     <label for="almen-ink-images"></label>
-                    <input onclick="openModal()" type="file" id="almen-ink-images" name="filename">
+                    <input type="file" id="almen-ink-images" name="filename">
                 </fieldset>
             </div>
 
@@ -81,11 +81,11 @@
             <div class="inline-block">
                 <fieldset name="tattoo-description" id="description" class="inline-block">
                     <legend aria-label="Describe your idea">Describe your Idea</legend>
-                    <textarea name="almen-ink-descriptor" id="almen-ink-descriptor" cols="40" rows="11"></textarea>
+                    <textarea onclick="openModal()" name="almen-ink-descriptor" id="almen-ink-descriptor" cols="40" rows="11"></textarea>
                 </fieldset>
             </div> <br>
             <!-- submit button -->
-            <button type="button" aria-label="Send" onclick="modal()">SEND</button>
+            <button type="button" aria-label="Send" onclick="openModal()">SEND</button>
             <div class="mobile-spacer"></div>
         </form>
     

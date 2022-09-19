@@ -216,8 +216,9 @@ footer {
     left: 2%;
 }
 
-/*modal overlay, cover entire screen*/
+/* modal overlay, cover entire screen */
 #modal-window {
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     display: none;
@@ -228,7 +229,8 @@ footer {
 
 /*modal box containing info*/
 #modal-box {
-    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    background-color: rgba(22, 22, 22, 1);
     height: 50%;
     width: 50%;
     margin: 25vh 25vw;
@@ -265,7 +267,25 @@ label[for="almen-ink-descriptor"] {
 
 /* X that closes modal window*/
 .close-modal {
-    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 95%;
+    top: 2.5%;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+/* modal adjustments for smaller screens */
+@media only screen and (max-width: 1200px) {
+    #modal-box {
+        height: 80%;
+        width: 80%;
+        margin: 10vh 10vw;
+    }
 }
 
 /* mobile device and tablet css */
@@ -293,6 +313,10 @@ label[for="almen-ink-descriptor"] {
     #copyright {
       display: none;
     }
+
+    .close-modal {
+        left: 90%;
+    }
 }
 
 /* adjust social media */
@@ -302,6 +326,10 @@ label[for="almen-ink-descriptor"] {
       padding: 10px 0px;
       position: relative;
       text-align: center;
+    }
+
+    .close-modal {
+        left: 85%;
     }
 }
 
