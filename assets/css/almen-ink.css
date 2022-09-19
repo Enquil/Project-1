@@ -216,7 +216,7 @@ footer {
     left: 2%;
 }
 
-/*modal overlay, should cover entire screen*/
+/*modal overlay, cover entire screen*/
 #modal-window {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
@@ -261,6 +261,14 @@ footer span {
 
 label[for="almen-ink-descriptor"] {
     display: none;
+}
+
+/* X that closes modal window*/
+#close-modal {
+    position: relative;
+    background-color: whitesmoke;
+    color: black;
+    right: 99%;
 }
 
 /* mobile device and tablet css */

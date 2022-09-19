@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- modal to handle the broken webshop links and booking form -->
+    <div id="modal-window"></div>
+
         <!-- internal nav, -->
     <nav class="block">
         <a class="nav-link" href="index.html" aria-label="about us">About</a>
@@ -23,8 +26,7 @@
         <a class="nav-link" href="booking.html" aria-label="booking and contact">Booking</a>
         <a class="nav-link" href="aftercare.html" aria-label="aftercare">Aftercare</a>
     </nav>
-    <!-- modal to handle the broken webshop links and booking form -->
-    <div id="modal-window"></div>
+
         <!-- page-welcome -->
         <div class="page-welcome">
 
@@ -59,19 +61,19 @@
 
                     <!--name-->
                     <label for="full_name" class="block">Name</label>
-                    <input onclick="modal()" id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
+                    <input onclick="openModal()" id="full_name" name="full_name" type="text" class="block" required aria-required="true" aria-label="type in your name">
 
                     <!--e-mail-->
                     <label for="e-mail" class="block">Mail</label>
-                    <input onclick="modal()" id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
+                    <input onclick="openModal()" id="e-mail" name="email" type="text" class="block" required aria-required="true" aria-label="type in your email">
 
                     <!--phone-->
                     <label for="phone" class="block">Phone</label>
-                    <input onclick="modal()" id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
+                    <input onclick="openModal()" id="phone" name="phone" type="text" class="block" required aria-required="true" aria-label="type in your phone-nr">
 
                     <!--attachments-->
                     <label for="almen-ink-images"></label>
-                    <input onclick="modal()" type="file" id="almen-ink-images" name="filename">
+                    <input onclick="openModal()" type="file" id="almen-ink-images" name="filename">
                 </fieldset>
             </div>
 
