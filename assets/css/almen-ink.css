@@ -150,6 +150,7 @@ footer {
 .fa-facebook-square {
     color: rgb(66 103 178);
 }
+
 .fa-google-play {
     color: rgb(1,135,95);
 }
@@ -270,6 +271,10 @@ label[for="almen-ink-descriptor"] {
     left: 69%;
     color: whitesmoke;
     background: rgba(22, 22, 22, 0);
+}
+
+.close-modal:hover {
+    box-shadow: none;
 }
 
 #modal-box h2 {
