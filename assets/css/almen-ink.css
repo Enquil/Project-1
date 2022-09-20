@@ -308,15 +308,22 @@ label[for="almen-ink-descriptor"] {
     #contact {
       display: none;
     }
+    .close-modal {
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    .close-modal {
+        left: 50%;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     #copyright {
       display: none;
     }
-    .close-modal {
-        left: 70%;
-    }
+
 }
 
 /* adjust social media */
@@ -348,10 +355,6 @@ label[for="almen-ink-descriptor"] {
 @media not screen and (max-width: 600px) {
     .mobile-break {
         display: none;
-    }
-
-    .close-modal {
-        left: 15%;
     }
 }
 
