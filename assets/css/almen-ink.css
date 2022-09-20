@@ -291,6 +291,10 @@ label[for="almen-ink-descriptor"] {
 
 /* modal adjustments for smaller screens */
 @media only screen and (max-width: 1200px) {
+    form {
+        width: 60%;
+    }
+
     #modal-box {
         height: 80%;
         width: 80%;
