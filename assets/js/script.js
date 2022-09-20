@@ -30,8 +30,9 @@ function closeModal() {
  * Function that closes the modal when clicking anywhere outside of the div #modal-box.
  */
 window.onclick = function(event) {
-  modalBox.remove(); 
+  let modalBox = document.getElementById("modal-box");
     if (event.target == modal) {
       modal.style.display = "none";
+      modalBox.remove(); 
     }
 };
