@@ -313,9 +313,8 @@ label[for="almen-ink-descriptor"] {
     #copyright {
       display: none;
     }
-
     .close-modal {
-        left: 90%;
+        left: 65%;
     }
 }
 
@@ -327,16 +326,16 @@ label[for="almen-ink-descriptor"] {
       position: relative;
       text-align: center;
     }
-
-    .close-modal {
-        left: 85%;
-    }
 }
 
-/* reveal homebutton */
+/* reveal homebutton for smaller screens */
 @media only screen and (max-width: 700px) {
     #home-butt {
       display: inline-block;
+    }
+
+    .close-modal {
+        left: 30%;
     }
 }
 
