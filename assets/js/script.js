@@ -10,10 +10,8 @@ function openModal() {
                             <h2 class="inline-block" style="font-size: 3rem">Ooops..</h2>
                             <button class="close-modal inline-block" style="font-size: 3rem" onclick="closeModal()">X</button>
                             <p style="font-size: 1.5rem; margin-left:5%; margin-right:5%; line-height: 1.5">Looks like this is broken, ask my LAZY web developer why that is.<br>
-                            In the meantime, i am reachable in any of the following ways: <br>
-                            Phone: 070-123 45 67<br>
-                            OR <br>
-                            Almen-Ink@gmail.com
+                            Meanwhile, i am reachable in any of the following ways: <br>
+                            Phone: 070-123 45 67, Mail: Almen-Ink@gmail.com
                             </p>
                         </div>`;
 }
