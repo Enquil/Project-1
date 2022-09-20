@@ -9,9 +9,9 @@ function openModal() {
     modal.innerHTML += `<div id="modal-box">
                             <h2 class="inline-block" style="font-size: 3rem">Ooops..</h2>
                             <button class="close-modal inline-block" style="font-size: 3rem" onclick="closeModal()">X</button>
-                            <p style="font-size: 1.5rem; margin-left:5%; margin-right:5%; line-height: 1.5">Looks like this is broken, ask my LAZY web developer why that is.<br>
+                            <p style="font-size: 1.4rem; margin-left:5%; margin-right:5%; line-height: 1.5">Looks like this is broken, ask my LAZY web developer why that is.<br>
                             Meanwhile, i am reachable in any of the following ways: <br>
-                            Phone: 070-123 45 67, Mail: Almen-Ink@gmail.com
+                            Phone: 070-123 45 67 <br> Mail: Almen-Ink@gmail.com
                             </p>
                         </div>`;
 }
@@ -20,7 +20,7 @@ function openModal() {
  * Closes modal on pressin the span X
  */
 function closeModal() {
-  modalBox = document.getElementById("modal-box")
+  let modalBox = document.getElementById("modal-box");
   modalBox.remove();
     modal.style.display = "none";
 }
