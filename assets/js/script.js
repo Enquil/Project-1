@@ -21,6 +21,8 @@ function openModal() {
  * Closes modal on pressin the span X
  */
 function closeModal() {
+  modalBox = document.getElementById("modal-box")
+  modalBox.remove();
     modal.style.display = "none";
 }
 
@@ -28,7 +30,8 @@ function closeModal() {
 /**
  * Function that closes the modal when clicking anywhere outside of the div #modal-box.
  */
-window.onclick = function(event) { 
+window.onclick = function(event) {
+  modalBox.remove(); 
     if (event.target == modal) {
       modal.style.display = "none";
     }
