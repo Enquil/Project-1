@@ -258,10 +258,6 @@ footer span {
     font-size: 20px;
 }
 
-label[for="almen-ink-descriptor"] {
-    display: none;
-}
-
 /* X that closes modal window*/
 .close-modal {
     font-size: 2.5rem;
