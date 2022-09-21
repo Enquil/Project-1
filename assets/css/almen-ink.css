@@ -33,7 +33,6 @@ form {
     box-shadow: 0px 5px 5px rgb(52, 52, 52);
     margin-left: 1.5%;
     margin-top: 0.75%;
-    margin-bottom: 90px;
 }
 
 h1 {
@@ -322,7 +321,11 @@ footer span {
         left: 15%;
     }
 }
-
+@media screen and (min-width: 650px) and (max-width: 1300px) {
+    form {
+        margin-bottom: 10rem;
+    }
+}
 @media screen and (min-width: 650px) and (max-width: 1000px) {
     .close-modal {
         left: 50%;
