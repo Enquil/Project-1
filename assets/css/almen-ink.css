@@ -321,11 +321,15 @@ footer span {
         left: 15%;
     }
 }
+
+/*adjust form for medium screens*/
+
 @media screen and (min-width: 650px) and (max-width: 1300px) {
     form {
         margin-bottom: 10rem;
     }
 }
+
 @media screen and (min-width: 650px) and (max-width: 1000px) {
     .close-modal {
         left: 50%;
