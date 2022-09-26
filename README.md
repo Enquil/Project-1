@@ -121,7 +121,9 @@ Tried using semantic markup throughout the page, think it went alright but some 
 ---
  * I used lighthouse test at https://web.dev/measure/ and came up with the following scores and issues
   * Index
-  ![Screenshot of the Booking Page](./assets/media/lighthouseindex.png "Index")
+  ![Lighthouse index test](./assets/media/lighthouseindex.png "Index")
+  * Gallery
+  ![Lighthouse index test](./assets/media/lighthousegallery.png "Index") 
  
  * <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Jigsaw Validator results</a>
  * <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F">W3C validator results</a> (same errors as lighthouse, cant figure it out).
