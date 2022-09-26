@@ -126,7 +126,8 @@ Tried using semantic markup throughout the page, think it went alright but some 
   ![Lighthouse index test](./assets/media/lighthouseindex.png "Index")
 
   #### Gallery page results and issues
-    * Img sizes are not rendered at their natural 
+    * Img sizes are not rendered at their natural
+    * Google fonts and fontawesome script is "render-blocking" 
   ![Lighthouse gallery test](./assets/media/lighthousegallery.png "Gallery") 
 
   #### Booking page results and issues
@@ -135,7 +136,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 
   ####
     * Google fonts and fontawesome script is "render-blocking"
-  ![Lighthouse booking test](./assets/media/lighthousebooking.png "Booking")
+  ![Lighthouse booking test](./assets/media/lighthouseaftercare.png "Aftercare")
 
  * <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Jigsaw Validator results</a>
  * <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fenquil.github.io%2FCodeInstitute-Project-1%2F">W3C validator results</a> (same errors as lighthouse, cant figure it out).
