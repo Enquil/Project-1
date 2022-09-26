@@ -86,7 +86,7 @@ Fixed position, contains phone-nr and email to the left, social media in the mid
 * Colours
 
   * Black/gray backgrounds with white text, had some worries about visibility when using opacity and a textured background, but feedback has been good thus far.
-  * Background is custom texture to mimic rock, didnt come out as planned, will switch to something brick-like maybe and a bit darker for contrast.
+  * Background is not black and grey scale, looking into more fun options.
   * Text is whitesmoke, rgb(245, 245, 245).
   * Nav, page-welcome and footer is linear-gradient top -> right rgba(82, 82, 82, 0.8), rgba(52, 52, 52, 0.9), rgba(22, 22, 22).
   * Submit button on form is linear gradient top-left -> bottom right RGB(202, 202, 222), rgb(162, 162, 192), rgb(132, 132, 162), rgb(102, 102, 132).
