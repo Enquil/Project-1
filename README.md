@@ -32,29 +32,28 @@ This page serves 2 purposes.
 It is the main welcome page as well as an introduction to the owner and artists working here.
 It contains a short bio, as well as links to other work from the artists.
 
-![Screenshot of the Welcome Page](./assets/media/About-Welcome.png "Welcome page")
+![Screenshot of the Welcome Page](./assets/media/indexscreen.png "Welcome page")
 
 ### Gallery
 
 Contains image galleries with tattoo art done at the studio, there will be image descriptions implemented with the JS gallery, but it looked so lackluster to do it straight HTML/CSS.
 
-![Screenshot of the Gallery Page](./assets/media/Gallery.png "Gallery 1")
-![Screenshot of the gallery Page](./assets/media/Gallery-2.png "Gallery 2")
-![Screenshot of the Gallery Page](./assets/media/Gallery-3.png "Gallery 3")
+![Screenshot of the Gallery Page](./assets/media/galleryscreen.png "Gallery 1")
+![Screenshot of the gallery Page](./assets/media/galleryscreen2.png "Gallery 2")
 
 ### Booking
 
 This page lets you book a consultation with the studio via JavaScript form and attach images or other files that might be relevant, it also contains info about booking and fees but the client has not decided on one yet.
 
-![Screenshot of the Booking Page](./assets/media/Booking.png "Booking")
+![Screenshot of the Booking Page](./assets/media/bookingscreen.png "Booking")
 
 ### Aftercare
 
 Instructions on how to nurse a tattoo, contains a downloadable .pdf that provides full coverage from day 1 to fully healed. <br>
 Also contains a "first 2 weeks"-guide with some general tips that are extra crucial during initial stages of healing.
 
-![Screenshot of the Booking Page](./assets/media/Aftercare.png "Aftercare 1")
-![Screenshot of the Booking Page](./assets/media/Aftercare-2.png "Aftercare 2")
+![Screenshot of the Booking Page](./assets/media/aftercarescreen.png "Aftercare 1")
+![Screenshot of the Booking Page](./assets/media/aftercarescreen2.png "Aftercare 2")
 
 ### Navigation Bar
 
@@ -168,7 +167,7 @@ Tried using semantic markup throughout the page, think it went alright but some 
 ---
 * ((SOLVED)) "Wrong" Aria-label on social media/homebutton icons, will be fixed as soon as i know why theyre actually considered wrong, letting them stay now because i will get an error either way.
 * ((SOLVED)) I noticed a small gap on the right side of the nav on some screen sizes, not sure what the problem actually is, i tried removing the margin and change position but it didnt actually do anything useful so will investigate further.
-* ((SOLVED)) images are not rendered properly so that will be fixed.
+* ((SOLVED)) images are not rendered properly.
 * Link to webshop and booking form is broken, at the moment, this is solved with a modal containing contact information.
 
 
