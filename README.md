@@ -32,7 +32,7 @@ This page serves 2 purposes.
 It is the main welcome page as well as an introduction to the owner and artists working here.
 It contains a short bio, as well as links to other work from the artists.
 
-![Screenshot of the Welcome Page](./assets/media/indexscreen.png "Welcome page")
+![Screenshot of the About Page](./assets/media/newindexscreen.png "Welcome page")
 
 ### Gallery
 
