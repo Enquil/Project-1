@@ -38,7 +38,7 @@ It contains a short bio, as well as links to other work from the artists.
 
 Contains image galleries with tattoo art done at the studio, there will be image descriptions implemented with the JS gallery, but it looked so lackluster to do it straight HTML/CSS.
 
-![Screenshot of the Gallery Page]<img src="./assets/media/galleryscreen.png" width="50">
+![Screenshot of the Gallery Page](./assets/media/galleryscreen.png "Gallery 1")
 ![Screenshot of the gallery Page](./assets/media/galleryscreen2.png "Gallery 2")
 
 ### Booking
